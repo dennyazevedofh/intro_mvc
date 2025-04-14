@@ -1,3 +1,8 @@
+import { MateriaService } from "./services/Materia.service.js"
+import { AlunoService } from "./services/Aluno.service.js"
+import { EditAlunoView } from "./views/EditAluno.view.js"
+import { EditAlunoController } from "./controllers/EditAluno.controller.js"
+
 const materiaService = new MateriaService()
 const alunoService = new AlunoService()
 
